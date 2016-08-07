@@ -99,7 +99,35 @@ input.button {
 
 <div id="formcontainer">
 <!-- enter the form code below -->
+<form id = "reunionhelp" action = " ">
+	<fieldset class = "labelfloatleft">
+		<legend> Personal Information</legend>
+			<input type = "text" name ="firstname" id="firstname" size ="30" />
+				<label for = "firstname">First Name</label>
+					<br/>
+			<input type = "text" name = "lastname" id ="lastname" value = "Sullivan" size = "30" />
+				<label for = "lastname"> Last Name</label>
+					<br />
+			<input type = "email" name = "emailaddress" id = "email" size = "50" placeholder = "name@anywhere.com" />
+				<label for = "email">Email Address</label>
+</fieldset>
 
+	<fieldset class = "group">
+		<legend> Relation </legend>
+			<input type = "radio" name ="sullivan" value = "iamsullivan" id="iamsullivan">
+			I am a Sullivan</input>
+			<input type = "radio" name = "sullivan" value = "spouse" id = "spouse">
+			I am the spouse of a Sullivan</input>		
+	</fieldset>
+	
+	<fieldset>
+		<legend> Tell us how you can help</legend>
+		<label for = "message">Message</label>
+			<textarea name = "message" id = "message" rows = "12" cols = "80"></textarea>
+	</fieldset>
+		<input type = "submit" value = "Send Information" class = "button" />
+		<input type = "reset"  value = "Reset" class = "button" />
+</form>
   
  
 
