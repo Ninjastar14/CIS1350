@@ -1,0 +1,42 @@
+nav{
+		background-color: black;
+		display: inline;
+		padding-right: 20px;
+	}
+	
+body {
+	background-color:#000080;	
+	
+}
+	
+	
+footer{
+	color: white;
+	padding:10px;
+	border-top: solid 4px black;
+	text-align: center;
+}
+	
+a {
+	color: white;
+	text-decoration:none;
+}
+	
+a:hover {
+		
+	font-size: 1.2em;
+}
+	
+ul {
+	font-size 15px;
+	list-style-type:none;
+}	
+
+ul.li {
+	
+	
+}
+
+fieldset {
+	display:block;
+}

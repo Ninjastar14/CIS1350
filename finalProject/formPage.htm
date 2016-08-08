@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Final Project Form Page</title>
+<link href = "FPCSS/mobilestylesheet.css" type = "text/css" />
+</head>
+<body>
+ <p>
+  The form is used to get some basic information about the user including their 
+  address, and phone number. 	
+</p>
+
+<form>
+	<fieldset>
+		<label for = "firstname">First Name</label>
+		<input type = "text" name = "firstname" id = "firstname" size = "20" />
+		<label for = "lastname">Last Name</label> 
+		<input type = "text" name = "lastname" id = "lastname" size = "20" />
+		
+	</fieldset>
+	
+	<fieldset>
+		<label for = "address1"> Home Address</label>
+		<input type = "text" name = "address1" id = "address1" size = "40" maxlength = "40" 
+		placeholder = "123 Sesame Street" />
+		<label for = "address2"> Second Address</label>
+		<input type = "text" name = "address2" id = "address2" size = "40" maxlength = "40" />
+		<label for = "zip"> Zip Code</label>
+		<input type = "text" name = "zip" id = "zip" size = "5" maxlength = "5" />
+		<label for = "city"> City</label>
+		<input type = "text" name = "city" id = "city" size = "20" />
+		<label for = "state"> State</label>
+		<input type = "text" name = "state" id ="state" size = "2" maxlength = "2" />
+	</fieldset>
+	<input type = "submit" value = "Submit Information" class = "button" />
+	<input type = "reset" value = "Cancel" class = "button"/>
+</form>
+</body>
+</html>
